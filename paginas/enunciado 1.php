@@ -11,7 +11,12 @@
 </head>
 
 <body>
-    <p>hola</p>
+<p>hola</p>
+
+<form action="proc/res.proc.php" method="post">
+        <input type="text" name="respuesta1" placeholder="inserte respuesta">
+        <input type="submit" name="enunciado1">
+    </form>
 </body>
 
 </body>

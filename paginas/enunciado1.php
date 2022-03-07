@@ -13,10 +13,15 @@
 <body>
 <p>hola</p>
 
-<form action="proc/res.proc.php" method="post">
-        <input type="text" name="respuesta1" placeholder="inserte respuesta">
+<form action="../proc/res.proc.php" method="post">
+        <input type="text" name="respuesta" placeholder="inserte respuesta">
         <input type="submit" name="enunciado1">
     </form>
+    <?php
+    if (isset($_GET['msg'])) {
+        echo '<p id="msg">'.$_GET['msg'].'</p>';
+    }
+    ?>
 </body>
 
 </body>

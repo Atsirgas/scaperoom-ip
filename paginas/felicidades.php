@@ -9,6 +9,7 @@
 <body>
     <h1>Felicidades, ya has acabado!</h1>
 
+    <a href="../index.html">volver</a>
     <?php
     //recupera la sesión
     session_start();

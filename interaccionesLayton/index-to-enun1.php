@@ -10,3 +10,8 @@ if($respu=="si"){
      else{
         header ('Location: ./despedida.html');
      }
+
+session_start();
+$_SESSION['enunciado1']='check';
+ 
+header('Location: ../paginas/enunciado1.php');

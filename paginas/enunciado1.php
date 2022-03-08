@@ -24,7 +24,8 @@
     if (!($_SESSION["enunciado1"]=='check')) {
         header("Location: ../index.html");
     }
-
+    ?>
+    <?php
     if (isset($_GET['msg'])) {
         echo '<p id="msg">'.$_GET['msg'].'</p>';
     }

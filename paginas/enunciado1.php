@@ -17,7 +17,14 @@
         <input type="text" name="respuesta" placeholder="inserte respuesta">
         <input type="submit" name="enunciado1">
     </form>
+    
     <?php
+    //recupera la sesión
+    session_start();
+    if (!($_SESSION["enunciado1"]=='check')) {
+        header("Location: ../index.html");
+    }
+
     if (isset($_GET['msg'])) {
         echo '<p id="msg">'.$_GET['msg'].'</p>';
     }

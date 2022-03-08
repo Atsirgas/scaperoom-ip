@@ -19,6 +19,12 @@
     </form>
 
     <?php
+    //recupera la sesión
+    session_start();
+    if (!($_SESSION["enunciado4"]=='check')) {
+        header("Location: ../paginas/enunciado3.php");
+    }
+
     if (isset($_GET['msg'])) {
         echo '<p id="msg">'.$_GET['msg'].'</p>';
     }

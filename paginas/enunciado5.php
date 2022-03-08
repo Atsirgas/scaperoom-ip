@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<p>soy la 4</p>
+<p>soy la 5</p>
 
 <form action="../proc/res.proc.php" method="post">
         <input type="text" name="respuesta" placeholder="inserte respuesta">
@@ -19,6 +19,12 @@
     </form>
 
     <?php
+    //recupera la sesión
+    session_start();
+    if (!($_SESSION["enunciado5"]=='check')) {
+        header("Location: ../paginas/enunciado4.php");
+    }
+
     if (isset($_GET['msg'])) {
         echo '<p id="msg">'.$_GET['msg'].'</p>';
     }

@@ -11,12 +11,13 @@
 </head>
 
 <body>
-<p>soy la 2</p>
+<p>soy la 4</p>
 
 <form action="../proc/res.proc.php" method="post">
         <input type="text" name="respuesta" placeholder="inserte respuesta">
-        <input type="submit" name="enunciado2">
+        <input type="submit" name="enunciado6">
     </form>
+
     <?php
     if (isset($_GET['msg'])) {
         echo '<p id="msg">'.$_GET['msg'].'</p>';
@@ -26,5 +27,3 @@
 </body>
 
 </body>
-
-</html>

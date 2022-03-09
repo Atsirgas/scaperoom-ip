@@ -4,7 +4,6 @@
     background-image: url("../img/agencia.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 #fondo {
@@ -13,7 +12,6 @@
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 #btn-1 {
@@ -31,7 +29,7 @@
 }
 
 #enlace1 {
-    font-size: 15vh;
+    font-size: 5vw;
 }
 
 .flex {
@@ -72,6 +70,7 @@
 
 #msg {
     color: red;
+    text-align: center;
 }
 
 #danny {
@@ -83,4 +82,49 @@
     height: 50vh;
     border-radius: 20px;
     margin-left: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    /* TEXTO */
+    .presen {
+        background-color: brown;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 1vw;
+    }
+    .respu {
+        font-weight: bold;
+        background-color: lightgray;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 0.25vw;
+    }
+    .texto {
+        font-weight: bold;
+        font-size: 0.5vw;
+    }
+    .subt {
+        font-size: 0.5vw;
+    }
+    #enlace1 {
+        font-size: 3vw;
+    }
+    #danny {
+        height: 15vh;
+        width: 5vw;
+    }
+    #carcel {
+        height: 50vh;
+        border-radius: 20px;
+        margin-left: 30%;
+    }
+    /* BOTON */
+    #btn-1 {
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 15%;
+        margin-left: 30%;
+        height: 38vh;
+        width: 15vw;
+    }
 }

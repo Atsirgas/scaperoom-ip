@@ -14,4 +14,3 @@ if($respu=="si"){
 session_start();
 $_SESSION['enunciado1']='check';
  
-header('Location: ../paginas/enunciado1.php');

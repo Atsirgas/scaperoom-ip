@@ -41,7 +41,7 @@
 }
 
 .relleno {
-    background-color: white;
+    background-color: #23abeb56;
     border-radius: 20px;
     text-align: center;
 }
@@ -55,7 +55,7 @@
 
 .respu {
     font-weight: bold;
-    background-color: lightgray;
+    background-color: #2690ce5b;
     border-radius: 20px;
     text-align: center;
     font-size: 1.25vw;

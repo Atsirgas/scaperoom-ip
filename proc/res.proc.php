@@ -9,7 +9,7 @@ if(isset($_POST['enunciado1']) && strtolower($_POST['respuesta'])=='instituto'){
 
     //error
 } else if (isset($_POST['enunciado1'])){
-    header('Location: ../paginas/enunciado1.php?msg=error');
+    header('Location: ../paginas/enunciado1.php?msg=eso es un..');
 }
 
 // pantalla2 -> pantalla3
@@ -22,7 +22,7 @@ else if(isset($_POST['enunciado2']) && strtolower($_POST['respuesta'])=='m4'){
 
     //error
 } else if (isset($_POST['enunciado2'])){
-    header('Location: ../paginas/enunciado2.php?msg=error');
+    header('Location: ../paginas/enunciado2.php?msg=m...');
 }
 
 // pantalla3 -> pantalla4
@@ -35,7 +35,7 @@ else if(isset($_POST['enunciado3']) && strtolower($_POST['respuesta'])=='asix1')
 
     //error
 } else if (isset($_POST['enunciado3'])){
-    header('Location: ../paginas/enunciado3.php?msg=error');
+    header('Location: ../paginas/enunciado3.php?msg=error, que estas estudiando?');
 }
 
 // pantalla4 -> pantalla5
@@ -48,7 +48,7 @@ else if(isset($_POST['enunciado4']) && strtolower($_POST['respuesta'])=='; }'){
 
     //error
 } else if (isset($_POST['enunciado4'])){
-    header('Location: ../paginas/enunciado4.php?msg=error');
+    header('Location: ../paginas/enunciado4.php?msg=no escuchas al profe?');
 }
 
 // pantalla5 -> pantalla6
@@ -61,7 +61,7 @@ else if(isset($_POST['enunciado5']) && strtolower($_POST['respuesta'])=='danny')
 
     //error
 } else if (isset($_POST['enunciado5'])){
-    header('Location: ../paginas/enunciado5.php?msg=error');
+    header('Location: ../paginas/enunciado5.php?msg=prueba con d...');
 }
 
 // pantalla6 -> pantalla felicitacion

@@ -19,12 +19,12 @@
     <br>
     <br>
     <br>
-        <img src="../img/carcel.jpg" id="carcel">
+        <img src="../img/danny2.png" id="danny2">
     <br>
     <br>
     <br>
     <div class="relleno"> 
-        <a href="../index.html">VOLVER</a>
+        <a href="../index.html" id="volver">VOLVER</a>
     </div>
     <?php
     //recupera la sesión

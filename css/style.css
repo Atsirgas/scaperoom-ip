@@ -78,10 +78,22 @@
     width: 30vw;
 }
 
+#danny2 {
+    height: 50vh;
+    width: 35vw;
+    padding-left: 40%;
+    border-radius: 20px;
+}
+
 #carcel {
     height: 50vh;
-    border-radius: 20px;
-    margin-left: 30%;
+    border-radius: 25px;
+    margin-left: 25%;
+}
+
+#volver {
+    color: black;
+    font-size: 2vw;
 }
 
 @media only screen and (max-width: 600px) {
